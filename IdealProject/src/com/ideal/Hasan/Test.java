@@ -1,4 +1,4 @@
-package com.ideal.hasan;
+package com.ideal.Hasan;
 
 public class Test {
 
