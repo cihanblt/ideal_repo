@@ -28,7 +28,7 @@ public class Main {
 //		b1.mB();
 		
 		A c = new C();
-		c.mA(0, "");
+//		c.mA(0, "");
 		
 //		C c1 = new C();
 //		c1.mC();

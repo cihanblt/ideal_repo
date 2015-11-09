@@ -13,7 +13,7 @@ public class C extends B{
 	}
 	
 	public void mA(int i,String name){
-		super.mA(10, "asd");
+//		super.mA(10, "asd");
 		System.out.println("biz bunu override ettik ama yinede superdekini çalýþtýrýyoruz...");
 	}
 }
