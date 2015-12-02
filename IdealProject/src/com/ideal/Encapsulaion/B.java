@@ -5,7 +5,8 @@ public class B  extends A{
 	static final String connName = "db";
 	static final String pass = "12345";
 	public B() {
-		super(connName,pass);
+//		super(connName,pass);
+		System.out.println("b constructor");
 	}
 	public void mB(){
 		System.out.println("mB metot");

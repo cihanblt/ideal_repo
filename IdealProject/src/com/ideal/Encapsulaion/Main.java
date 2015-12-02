@@ -1,5 +1,7 @@
 package com.ideal.Encapsulaion;
 
+import java.util.Calendar;
+
 public class Main {
 	public static void main(String[] args) {
 //		Customer customer = new Customer();
@@ -27,7 +29,7 @@ public class Main {
 //		B b1 = new C();
 //		b1.mB();
 		
-		A c = new C();
+//		A c = new C();
 //		c.mA(0, "");
 		
 //		C c1 = new C();
@@ -36,12 +38,14 @@ public class Main {
 		
 		//upcasting and downcasting
 		
-		A aaa = new C(); //C aaa = new C();
+//		A aaa = new C(); //C aaa = new C();
+//		
+//		C ccc = (C)aaa;
+//		
+//		C ccc2 = new C();
+//		A aaa2 = (A)ccc2;
 		
-		C ccc = (C)aaa;
-		
-		C ccc2 = new C();
-		A aaa2 = (A)ccc2;
-		
+		C c = C.newInstance();
+		System.out.println(C.VALUE);
 	}
 }
